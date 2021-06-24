@@ -1,0 +1,9 @@
+alogging>=0.5.0
+color_bucket_logger
+logging_tree
+prettyprinter
+pygments
+sqlparse
+logstash_formatter
+django-automated-logging
+

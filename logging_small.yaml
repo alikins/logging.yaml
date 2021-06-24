@@ -1,0 +1,20 @@
+---
+version: 1
+disable_existing_loggers: false
+dynaconf_merge: true
+loggers:
+  "":
+    level: DEBUG
+  # Stuff that is too loud at DEBUG
+  django.db:
+    level: INFO
+  django.utils.autoreload:
+    level: ERROR
+  dynaconf:
+    level: INFO
+  pulpcore.content:
+    level: INFO
+  pulpcore.tasking.services.worker_watcher:
+    level: INFO
+  MARKDOWN:
+    level: INFO
